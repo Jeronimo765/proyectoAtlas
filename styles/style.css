@@ -115,3 +115,23 @@ button {
 .h3-lupa {
     color: #2B2C2C;
 }
+
+.take {
+    color: #292B2C;
+    padding: 40px 190px;
+    flex-wrap: wrap; 
+}
+
+.take p{
+    width: 35%;
+    line-height: 1.5;
+}
+
+.take .btn1 {
+    background-color: #192440;
+    color: #FFF1F3;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+
+}
