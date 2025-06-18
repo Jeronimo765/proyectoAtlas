@@ -15,10 +15,11 @@ body, html {
     background-position: center;
     height: 100vh;
     color: white;
-    padding: 40px 60px;
+    padding: 40px 190px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .header-top {
