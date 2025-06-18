@@ -63,9 +63,55 @@ html {
 
 button {
     background-color: #00e7b1;
-    color: white;
+    color: #192440;
     padding: 12px 25px;
     border: none;
     border-radius: 20px;
 
+}
+
+.h2-smartest {
+    color: #2A2B2C;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.h2-smartest {
+    color: #2A2B2C;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap; 
+}
+
+
+.servicio {
+    width: 30%;
+    text-align: center;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+.h3-carta {
+    color: #2B2C2C;
+}
+
+.h3-llave {
+    color: #2B2C2C;
+}
+
+.h3-lupa {
+    color: #2B2C2C;
 }
