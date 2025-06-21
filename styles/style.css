@@ -96,12 +96,6 @@ button {
     align-items: center;
 }
 
-.servicio p {
-    line-height: 1.5;
-    text-align: center;
-    margin: 20px auto 0 auto;
-    width: none;
-}
 
 .servicio img {
     max-width: 100%;
@@ -138,4 +132,68 @@ button {
     border: none;
     border-radius: 20px;
 
+}
+
+.safe {
+    background: #00FFAD;
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 100px 0;
+    color: #292B2C;
+    position: relative;
+}
+
+.container-safe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 0 20px;
+    padding-top: 200px;
+}
+
+.img-safe {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    width: 30%;
+    margin-top: 5px;
+}
+
+.img-safe img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.texto-safe {
+    max-width: 500px;
+}
+
+.h2 {
+    font-size: 25px;
+}
+
+.img-table img {
+    width: 500px;
+    height: auto;
+}
+
+
+.texto-safe p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn-safe {
+    background-color: #192440;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
