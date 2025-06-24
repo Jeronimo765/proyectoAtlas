@@ -231,7 +231,8 @@ button {
 
 .contacto {
     background-image: url(/assets/images/contact-bk.jpg);
-    background-size: cover;
+    background-size: auto 800px;
+    background-repeat: no-repeat;
     color: #FFFFFF;
     padding: 100px 90px;
     display: flex;
@@ -253,21 +254,19 @@ button {
     margin-top: auto;
     margin-bottom: auto;
     line-height: 1.8;
+    margin-left: 200px;
 }
 
 .formulario-contacto {
     display: flex;
-    justify-content: flex-end; /* Mueve el contenido a la derecha */
+    justify-content: flex-end;
     align-items: flex-start;
     padding: 85px;
-    height: 600px;
-   
-    background-blend-mode: darken;
+
 }
 
 
 .form-container {
-    position: relative;
     margin-top: -350px;
     width: 50%;
 }
@@ -303,7 +302,7 @@ textarea {
 label {
     margin-bottom: 5px;
     color: #00f7c2;
-    font-weight: bold;
+    
 }
 
 
@@ -318,10 +317,41 @@ label {
     width: 100%;
 }
 
+
+
 .footer {
     background: #192440;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    width: 100%; /* 👈 se asegura que ocupe todo el ancho */
+    padding: 50px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 250px;
+}
+
+.listas-iconos {
+    display: flex;
+    gap: 15px;
+    margin-right: 120px;
+}
+
+.listas-iconos i {
+    background-color: white;
+    color: #192440;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
