@@ -207,12 +207,29 @@ button {
 }
 
 /*ESPACIO PARA LAS TARJETAS*/
-.h2-check {
+
+.container-check {
     text-align: center;
-    font-size: 20px;
+    padding: 60px 20px;
 }
 
+.titulo-principal {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
 
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 280px;
+}
 .contenedor-gris {
     padding: 60px 20px;
     background: #ECEEEF;
