@@ -6,7 +6,7 @@
 }
 
 .new-way {
-    background-image: url(/assets/images/banner-bk.jpg);
+    background-image: url(../assets/images/banner-bk.jpg);
     background-size: cover;
     height: 100vh;
     color: white;
@@ -228,7 +228,7 @@ button {
 }
 
 .contacto {
-    background-image: url(/assets/images/contact-bk.jpg);
+    background-image: url(../assets/images/contact-bk.jpg);
     background-size: auto 800px;
     background-repeat: no-repeat;
     color: #FFFFFF;
