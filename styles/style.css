@@ -297,6 +297,7 @@ button {
 }
 .texto-contacto h2 {
     font-size: 35px;
+   
 }
 
 .texto-contacto {
@@ -459,7 +460,9 @@ label {
         top: -20px;
 
     }
-
+    .texto-contacto h2 {
+         margin-top: 100px;
+    }
     .formulario-contacto {
         padding: 30px;
         margin-top: 60px;
