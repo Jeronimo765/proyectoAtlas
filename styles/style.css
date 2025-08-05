@@ -544,6 +544,20 @@ label {
         padding: 50px 20px;
     }
 
+    .tarjeta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 450px;
+    }
+
+    .tarjeta .tarjeta-blanca {
+        margin-top: auto;
+        align-self: center;
+        width: auto;
+        max-width: 120px;
+    }
+
     .marcas {
         display: flex;
         flex-wrap: nowrap;
@@ -561,15 +575,10 @@ label {
         height: auto;
     }
 
-
-
-
     .texto-contacto h2 {
         margin-top: 40px;
         font-size: 28px;
     }
-
-
 
     .formulario-contacto {
         width: 55%;
@@ -578,8 +587,6 @@ label {
         margin-right: 20px;
         margin-top: 25px;
     }
-
-
 
     .footer {
         flex-direction: column;
@@ -592,17 +599,21 @@ label {
 
     .footer p {
         margin: 0;
-        padding: 0;
+        padding-right: 400px;
     }
 
     .footer .listas-iconos {
         display: flex;
         gap: 15px;
-        padding: 0;
+        padding-left: 600px;
         justify-content: center;
+
     }
 
     .footer .listas-iconos i {
         font-size: 20px;
+        margin-top: -50px;
+        justify-content: center;
+        padding-left: 0;
     }
 }
