@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -295,9 +295,10 @@ button {
     align-items: flex-start;
     gap: 60px;
 }
+
 .texto-contacto h2 {
     font-size: 35px;
-   
+
 }
 
 .texto-contacto {
@@ -311,6 +312,7 @@ button {
     line-height: 1.8;
     margin-left: 200px;
 }
+
 .formulario-contacto {
     flex: 1;
     display: flex;
@@ -442,6 +444,8 @@ label {
         margin-left: 400px;
     }
 
+
+
     .marcas {
         flex-wrap: wrap;
         justify-content: center;
@@ -460,17 +464,19 @@ label {
         top: -20px;
 
     }
+
     .texto-contacto h2 {
-         margin-top: 100px;
+        margin-top: 100px;
     }
+
     .formulario-contacto {
         padding: 30px;
         margin-top: 60px;
         align-items: center;
     }
 
-  .footer {
-        flex-direction: row ;
+    .footer {
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 90px 50px;
@@ -491,5 +497,108 @@ label {
     .footer .listas-iconos i {
         font-size: 20px;
     }
+
 }
 
+@media (max-width: 920px) {
+    .new-way {
+        padding: 40px 30px;
+        height: auto;
+    }
+
+    .content h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .content p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .take {
+        padding: 40px 30px;
+        flex-direction: column;
+
+    }
+
+    .take p {
+        width: 60%;
+    }
+
+    .img-safe {
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+        top: 150px;
+        margin-left: 450px;
+    }
+
+    .img-safe img {
+        width: 100%;
+    }
+
+    .texto-safe {
+        position: relative;
+        top: 90px;
+        padding: 50px 20px;
+    }
+
+    .marcas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .contenedor-gris {
+        padding: 20px 10px;
+    }
+
+    .texto-contacto {
+        margin-left: 0;
+        padding: 0 20px;
+        top: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .texto-contacto h2 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .formulario-contacto {
+        padding: 20px;
+        margin-top: 40px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer .listas-iconos {
+        display: flex;
+        gap: 15px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .footer .listas-iconos i {
+        font-size: 20px;
+    }
+}
