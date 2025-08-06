@@ -856,13 +856,176 @@ label {
     .footer .listas-iconos {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
         margin-top: 10px;
-        padding: 0;
+        padding-left: 120px;
+
     }
 
     .footer .listas-iconos i {
         font-size: 18px;
+        text-align: center;
+        margin-top: 5px;
+
     }
 
+}
+
+@media (max-width: 480px) {
+    .new-way {
+        padding: 20px 15px;
+        height: auto;
+    }
+
+    .content h1 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .content p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .take {
+        padding: 20px 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-safe {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        top: 50px;
+    }
+
+    .img-safe img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .texto-safe {
+        position: relative;
+        top: 40px;
+        padding: 20px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 300px;
+    }
+
+    .tarjeta-premium {
+        background-color: #192440;
+        color: #FFFFFF;
+        line-height: 1.8;
+        padding: 10px 15px;
+    }
+
+    .tarjeta-premium p {
+        font-size: 13px;
+        margin: 5px 0;
+    }
+
+    .marcas {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .marcas img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .contenedor-gris {
+        padding: 10px;
+    }
+
+    /* Contacto */
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 15px;
+        gap: 20px;
+    }
+
+    .texto-contacto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto-contacto h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .texto-contacto p {
+        font-size: 14px;
+    }
+
+    .formulario-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .formulario-contacto input,
+    .formulario-contacto textarea,
+    .formulario-contacto button {
+        width: 100%;
+        margin-bottom: 12px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .footer .listas-iconos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding-left: 100px;
+    }
+
+    .footer .listas-iconos i {
+        font-size: 20px;
+        margin-top: 5px;
+    }
 }
