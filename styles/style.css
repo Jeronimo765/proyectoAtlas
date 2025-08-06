@@ -658,7 +658,7 @@ label {
     .content p {
         font-size: 13px;
         width: 100%;
-        
+
     }
 
     .take {
@@ -685,6 +685,7 @@ label {
         width: 100%;
         max-width: 600px;
     }
+
     .img-safe {
         width: 100%;
         margin: 0 auto;
@@ -724,12 +725,22 @@ label {
         margin-left: -40px;
     }
 
-  
-    .tarjeta {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+    .tarjetas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        justify-items: center;
+    }
+
+    .tarjetas .tarjeta:nth-child(3) {
+        grid-column: 1 / 3;
+        justify-self: center;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 200px;
     }
 
     .tarjeta .tarjeta-blanca {
@@ -737,6 +748,20 @@ label {
         max-width: 200px;
         align-self: center;
     }
+
+    .tarjeta-premium {
+        background-color: #192440;
+        color: #FFFFFF;
+        line-height: 2.0;
+        padding: 10px 20px;
+
+    }
+
+    .tarjeta-premium p {
+        font-size: 13px;
+        margin: 4px 0;
+    }
+
 
     .marcas {
         display: flex;
@@ -759,25 +784,48 @@ label {
         height: auto;
     }
 
-  
-    .texto-contacto {
-        text-align: center;
+    .seccion-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
         padding: 20px;
     }
 
-    .texto-contacto h2 {
-        font-size: 22px;
-        margin: 10px 0;
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        /* espacio entre texto y formulario */
+        padding: 20px;
     }
 
-    
+    .texto-contacto {
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .texto-contacto h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .texto-contacto p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
     .formulario-contacto {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         max-width: 500px;
-        margin: 20px auto;
+        margin: 0 auto;
         padding: 0 15px;
     }
 
@@ -791,30 +839,30 @@ label {
         box-sizing: border-box;
     }
 
-
     .footer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        padding: 30px 15px;
+        justify-content: center;
+        padding: 20px 0;
         text-align: center;
-        gap: 15px;
     }
 
     .footer p {
-        margin: 0;
-        padding-right: 0;
+        margin: 10px 0;
+        padding: 0;
     }
 
     .footer .listas-iconos {
         display: flex;
-        gap: 10px;
         justify-content: center;
-        padding-left: 0;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 0;
     }
 
     .footer .listas-iconos i {
         font-size: 18px;
     }
+
 }
